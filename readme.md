@@ -7,8 +7,8 @@ Simple starter project for responsive layouts. IE7+ friendly, SASSy, Grunt-ing, 
 Before You Begin
 ---
 
-* This is essentially standalone. If you want to upgrade versions of included files, see the Advanced Getting Started below.
 * Everything is meant to be modified, with a few exceptions. You should not need to modify Bourbon, Neat or the vendor JS. If you feel like you need to modify Bourbon/Neat, first try adjusting the settings in Bitters or in your own SASS files.
+* If you want to upgrade versions of included files you're safe to do so. See Advanced Setup.
 * Grunt builds everything to a git-ignored `build` folder. If you want this folder as part of your repo, adjust the `gitignore` file or the task script.
 
 
@@ -28,6 +28,8 @@ Setup
 * Clone this project
 * Adjust `package.json` for your needs
 * Remove this project's git refs (`rm -rf .git`), setup your own repo
+* Search for "todo" in the project and change where appropriate
+* Install npm dependencies (`npm install`)
 * Run `grunt` from within project folder
 * Change stuff in `app` view results from `build`
 
