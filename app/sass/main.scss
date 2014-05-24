@@ -13,3 +13,35 @@
 .global-container {
   @include outer-container;
 }
+
+header.navigation {
+  @include row;
+}
+
+.primary-content {
+  @include row;
+  margin-top: 2em;
+  padding: 0 1em;
+
+  @include media ($large-screen) {
+    padding: 0;
+  }
+
+  .content {
+    @include span-columns(12);
+    @include media ($large-screen) {
+      @include span-columns(8);
+    }
+  }
+
+  .sidebar {
+    @include span-columns(12);
+    @include media ($large-screen) {
+      @include span-columns(4);
+    }
+  }
+}
+
+.global-footer {
+  @include row;
+}
