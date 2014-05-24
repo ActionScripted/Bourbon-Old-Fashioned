@@ -1,0 +1,9 @@
+# NPM/Grunt excludes
+.sass-cache/
+bower_components
+node_modules
+
+# System bits
+.DS_Store
+.Trashes
+[Tt]humbs.db
