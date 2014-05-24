@@ -1,0 +1,15 @@
+// Normalize
+@import 'normalize/normalize';
+// Bourbon library
+@import 'bourbon/bourbon';
+// Scaffold styles, variables and structure (edited to suit)
+@import 'bitters/bitters';
+// Grid library
+@import 'neat/neat';
+// Reusable styles
+@import 'refills';
+
+
+.global-container {
+  @include outer-container;
+}

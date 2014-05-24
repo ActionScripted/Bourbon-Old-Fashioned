@@ -2,6 +2,7 @@
 .sass-cache/
 bower_components
 node_modules
+build
 
 # System bits
 .DS_Store
