@@ -37,6 +37,7 @@ module.exports = function(grunt) {
       },
       watch: {
         options: {
+          sourcemap: true,
           style: 'compact'
         },
         files: [{
